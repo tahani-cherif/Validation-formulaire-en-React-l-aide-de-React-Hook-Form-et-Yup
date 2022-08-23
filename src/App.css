@@ -1,5 +1,10 @@
+body{
+  background-color: #8ccfe0;
+}
 .App {
   text-align: center;
+  margin-top: 100px;
+
 }
 .box{
   margin-bottom: 14px;
@@ -16,6 +21,16 @@ button{
     background-color: darkgray;
     border-color: darkgray;
     color: white;
+    border-radius: 9px;
+}
+form{
+  background-color: aliceblue;
+  width: 525px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  margin-left: 500px;
+  border-radius: 50px;
 }
 .App-logo {
   height: 40vmin;
