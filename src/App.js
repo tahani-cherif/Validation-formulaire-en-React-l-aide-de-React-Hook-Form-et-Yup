@@ -5,7 +5,7 @@ import { useForm, Controller,FormProvider } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 const messageError = 'Vous devez remplir ce champ';
-const phonetunis=/^[+0]{0,2}(91)?[0-9]{10}$/;
+const phonetunis=/^[+0]{0,2}(91)?[0-9]{8}$/;
 const mdp=/^[A-Za-z]\w{7,14}$/;
 const schema=yup.object().shape({
   nom: yup
