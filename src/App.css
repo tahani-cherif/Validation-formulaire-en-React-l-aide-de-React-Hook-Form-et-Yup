@@ -1,7 +1,22 @@
 .App {
   text-align: center;
 }
-
+.box{
+  margin-bottom: 14px;
+  margin-top: 2px;
+}
+span{
+  color: red;
+  font-size: 12px;
+  margin-left: -23px;
+}
+button{
+  width: 105px;
+    height: 37px;
+    background-color: darkgray;
+    border-color: darkgray;
+    color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
